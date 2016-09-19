@@ -9,12 +9,12 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<title>Stitch 'n Bitch</title>
+	<title>SnB Submit A Pattern</title>
 </head>
-<body class="index">
+<body class="submitPattern
+">
 
-
-	<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -28,10 +28,10 @@
 
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-	        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+	        <li><a href="index.html">Home</a></li>
 	        <li><a href="about.html">About</a></li>
-	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="caret"></span></a>
+	        <li class="dropdown active">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="caret"></span> <span class="sr-only">(current)</span></a>
 	          <ul class="dropdown-menu">
 	            <li><a href="yarn.html">Yarns</a></li>
 	            <li><a href="pattern.html">Patterns</a></li>
@@ -66,18 +66,36 @@
 	  </div>
 	</nav>
 
-	<div class="jumbotron">
-		<div class="container">
-			<img src="snb-logo1.png" alt="logo" class="logoFrontPage">
-			<p><a href="#"><button class="flat-butt">Buy the Book!</button></a></p>
-		</div>
+<div class="container">
+	<h2>Submit a Pattern</h2>
+	<h6>Have a great pattern you'd love to share with the world? Upload it here! Please be sure your pattern is readable to others, and include a key for your shorthand.</h6>
+
+	<hr>
+
+	<div class="input-group">
+		<label for="comment">Pattern Name:</label>
+		<input type="text" class="form-control" placeholder="Summer Isles Sweater Pattern" aria-label="">
 	</div>
 
+	<div class="form-group patternInstructions">
+		<label for="comment">Pattern Instructions:</label>
+		<textarea class="form-control" placeholder="With a size 6 hook, chain 6..." rows="5"></textarea>
+	</div>
 
+	<hr>
 
+	<label for="basic-url">Create a link to your pattern</label>
+	<div class="input-group">
+		<span class="input-group-addon" id="basic-addon3">https://stitchnbitch.com/users/</span>
+		<input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+	</div>
 
+	
 
+	<div class="btn btn-default">Submit</div>
 
+	
+</div>
 
 </body>
 </html>

@@ -1,4 +1,127 @@
-body {
-	background-image: url("http://wp4.learn.thecorkboard.org/wp-content/uploads/2015/10/yarn-background.jpg");
+.jumbotron {
+	text-align: bottom;
+	background: transparent;
+	color: #22698a;
+	height: 100vh;
+	background-image: url("http://mysisterknits.com/wp-content/uploads/2014/11/sunshine-skeins.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 50px; 
+    background-size: cover;
+    margin-bottom: 0;
 }
 
+.flat-butt {
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 6px;
+  font-family: "Lato", sans-serif;
+  font-size: 16.5px;
+  padding: 12px 20px;
+  border: 0;
+  background: gray;
+  color: #FFF;
+  cursor: pointer;
+  outline: 0;
+}
+
+.flat-butt:hover {
+  background: #005580;
+}
+
+.index > .jumbotron > .container > p {
+	display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.logoFrontPage {
+	max-width: 75vh;
+}
+
+.header {
+	margin-top: 50px;
+}
+
+.about {
+	background-image: url("yarn-background-about.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.containerAbout {
+	background: white;
+	border: 1px solid gray;
+	border-radius: 10px;
+	width: 60%;
+	margin-top: 100px;
+}
+
+.aboutPicture {
+	max-width: 50vh;
+	float: right;
+	padding: 50px 20px 10px 20px;
+}
+
+.logo {
+	float: right;
+	max-height: 100px;
+	padding: 20px 0;
+}
+
+.shop > .container {
+	margin-top: 50px;
+	padding-top: 50px;
+}
+
+body > h6 {
+	padding-left: 50px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-sm-6.col-md-3 {
+	display: block;
+}
+
+.thumbnail {
+	border-radius: 0px;
+	border: 0px;
+	box-shadow: none;
+}
+
+.caption > p {
+	margin-bottom: 0px;
+	font-size: 0.9em;
+}
+
+.caption {
+	width: 146px;
+	margin: 0 auto;
+}
+
+.submitPattern {
+	background-image: url("https://s-media-cache-ak0.pinimg.com/564x/50/d3/6d/50d36dc4dd45ec77a8a6e90241e73fae.jpg");
+}
+
+.submitPattern > .container {
+	margin-top: 125px;
+	padding-top: 50px;
+	background-color: white;
+	border-radius: 5px;
+	border: 2px solid gray;
+}
+
+.patternInstructions {
+	padding-top: 10px;
+}
+
+.container > .btn {
+	float: right;
+	margin: 50px 0;
+}
