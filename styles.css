@@ -29,7 +29,7 @@
   background: #005580;
 }
 
-.index > .jumbotron > .container > p {
+.index > .jumbotron > p {
 	display: block;
     width: 30%;
     margin: 0 auto;
@@ -44,11 +44,11 @@
 }
 
 .about {
-	background-image: url("yarn-background-about.jpg");
-	background-size: 100%;
+	background-image: url("images/yarn-background-about.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
 }
 
 .containerAbout {
