@@ -29,7 +29,7 @@
   background: #005580;
 }
 
-.index > .jumbotron > p {
+.index > .jumbotron > .container > p {
 	display: block;
     width: 30%;
     margin: 0 auto;
