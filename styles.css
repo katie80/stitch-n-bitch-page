@@ -51,8 +51,8 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
+	height:100%;
 }
-
 
 .containerAbout {
 	background: white;
