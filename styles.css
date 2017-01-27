@@ -45,22 +45,22 @@
 
 
 /*about page*/
-/*
 .about {
-	background-image: url("images/yarn-background-about.jpg");
+	background-image: url("images/mermaid-tail.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 }
-*/
+
 
 .containerAbout {
-	/*background: white;*/
+	background: white;
 	border: 1px solid gray;
 	border-radius: 10px;
 	width: 60%;
 	margin-top: 100px;
+	margin-bottom: 20px;
 }
 
 .aboutPicture {
