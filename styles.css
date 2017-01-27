@@ -43,16 +43,20 @@
 	margin-top: 50px;
 }
 
+
+/*about page*/
+/*
 .about {
-	/*background-image: url("images/yarn-background-about.jpg");*/
+	background-image: url("images/yarn-background-about.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+	background-attachment: fixed;
+	background-position: center;
 }
+*/
 
 .containerAbout {
-	background: white;
+	/*background: white;*/
 	border: 1px solid gray;
 	border-radius: 10px;
 	width: 60%;
@@ -60,7 +64,7 @@
 }
 
 .aboutPicture {
-	max-width: 50vh;
+	/*max-width: 50vh;*/
 	float: right;
 	padding: 50px 20px 10px 20px;
 }
@@ -70,6 +74,8 @@
 	max-height: 100px;
 	padding: 20px 0;
 }
+
+
 
 .shop > .container {
 	margin-top: 50px;
