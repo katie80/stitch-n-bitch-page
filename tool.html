@@ -1,258 +1,323 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<title>SnB Tools</title>
-</head>
-<body class="shop">
+<html lang="en">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Shop - Tools</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/business-casual.css" rel="stylesheet">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<style>
+		.itemsForSale {
+			margin-left: -15px;
+		}
+
+		.row {
+		display: inline-flex;
+		flex-wrap: wrap;
+		}
+
+		.caption > p {
+			margin-bottom: 0px;
+			font-size: 0.9em;
+		}
+
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="brand">Stitch n Bitch</div>
+	<div class="address-bar">2056 Mapleton Ave | Boulder, CO 80304 | 303.555.1234</div>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index.html">Stitch 'n Bitch</a>
+				<!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+				<a class="navbar-brand" href="index.html">Stitch n Bitch</a>
 			</div>
-
+			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li class="dropdown active">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="caret"></span> <span class="sr-only">(current)</span></a>
-						<ul class="dropdown-menu">
-							<li><a href="yarn.html">Yarns</a></li>
-							<li><a href="pattern.html">Patterns</a></li>
-							<li><a href="tool.html">Tools</a></li>
-							<li role="separator" class="divider"></li>
-							<li><a href="finished-products.html">Finished products</a></li>
-							<li role="separator" class="divider"></li>
-							<li><a href="submit-pattern.html">Submit a pattern</a></li>
-						</ul>
+					<li>
+						<a href="index.html">Home</a>
 					</li>
-				</ul>
-				<form class="navbar-form navbar-left">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Search">
-					</div>
-					<button type="submit" class="btn btn-default">Submit</button>
-				</form>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Blog</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">User <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Profile</a></li>
-							<li><a href="#">Account</a></li>
-							<li><a href="#">Help</a></li>
-							<li role="separator" class="divider"></li>
-							<li><a href="index.html">Log Out</a></li>
-						</ul>
+					<li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="yarn.html">Yarns</a></li>
+								<li><a href="pattern.html">Patterns</a></li>
+								<li><a href="tool.html">Tools</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="finished-products.html">Finished products</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="submit-pattern.html">Submit a pattern</a></li>
+							</ul>
+						</li>
+					</li>
+					<li>
+						<a href="#">Blog</a>
+					</li>
+					<li>
+						<a href="#">User</a>
 					</li>
 				</ul>
 			</div>
+			<!-- /.navbar-collapse -->
 		</div>
+		<!-- /.container -->
 	</nav>
 
-<div class="container">
-	<h2>Tools and Notions</h2>
-	<h6>Save with knitting needle sets and be prepared whenever inspiration strikes! Available in wood or metal, choose between our interchangeable needle sets, classic straight needle sets or double pointed knitting needle sets to suit every crafty whim.</h6>
+	<div class="container">
 
-	<hr>
+		<div class="row">
+			<div class="box">
+				<div class="col-lg-12">
+					<hr>
+					<h2 class="intro-text text-center">
+						<strong>Tools</strong>
+					</h2>
+					<hr>
+				</div>
+				<div class="container itemsForSale">
+					<div class="row">
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/yarn1.jpg" alt="">
+									<div class="caption">
+										<h5>Circular Needles</h5>
+										<p>$9.99</p>
+										<p>Wood and Nylon</p>
+										<p>8" - 50"</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/tools2.jpg" alt="">
+									<div class="caption">
+										<h5>Circular Needles</h5>
+										<p>$9.99</p>
+										<p>Wood and Nylon</p>
+										<p>8" - 50"</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/tools3.jpg" alt="">
+									<div class="caption">
+										<h5>Circular Needles</h5>
+										<p>$9.99</p>
+										<p>Wood and Nylon</p>
+										<p>8" - 50"</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/tools4.jpg" alt="">
+									<div class="caption">
+										<h5>Circular Needles</h5>
+										<p>$9.99</p>
+										<p>Wood and Nylon</p>
+										<p>8" - 50"</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/tools5.jpg" alt="">
+									<div class="caption">
+										<h5>Double-Pointed Needles</h5>
+										<p>$5.99</p>
+										<p>Metal</p>
+										<p>8"</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/tools6.jpg" alt="">
+									<div class="caption">
+										<h5>Double-Pointed Needles</h5>
+										<p>$15.99</p>
+										<p>Metal</p>
+										<p>8" - 10"</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/tools7.jpg" alt="">
+									<div class="caption">
+										<h5>Double-Pointed Needles</h5>
+										<p>$5.99</p>
+										<p>Metal</p>
+										<p>8" - 10"</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/tools8.jpg" alt="">
+									<div class="caption">
+										<h5>Double-Pointed Needles</h5>
+										<p>$5.99</p>
+										<p>wood</p>
+										<p>8" - 10"</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/tools9.jpg" alt="">
+									<div class="caption">
+										<h5>Cardigan</h5>
+										<p>$1.99 / 100g ball</p>
+										<p>100% Premium Acrylic</p>
+										<p>Worsted Weight</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/tools10.jpg" alt="">
+									<div class="caption">
+										<h5>Sweater</h5>
+										<p>$1.99 / 100g ball</p>
+										<p>100% Premium Acrylic</p>
+										<p>Worsted Weight</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/tools11.jpg" alt="">
+									<div class="caption">
+										<h5>Sweater</h5>
+										<p>$1.99 / 100g ball</p>
+										<p>100% Premium Acrylic</p>
+										<p>Worsted Weight</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/tools12.jpg" alt="">
+									<div class="caption">
+										<h5>Knitty</h5>
+										<p>$1.99 / 100g ball</p>
+										<p>100% Premium Acrylic</p>
+										<p>Worsted Weight</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/tools3.jpg" alt="">
+									<div class="caption">
+										<h5>Crochetty</h5>
+										<p>$1.99 / 100g ball</p>
+										<p>100% Premium Acrylic</p>
+										<p>Worsted Weight</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/tools4.jpg" alt="">
+									<div class="caption">
+										<h5>Yarny</h5>
+										<p>$1.99 / 100g ball</p>
+										<p>100% Premium Acrylic</p>
+										<p>Worsted Weight</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div> <!-- closes .container .itemsforsale -->
+				<div class="clearfix"></div>
+			</div> <!-- end .box -->
+		</div> <!-- end .row -->
+	</div> <!-- end .container -->
 
-	<div class="row">
-		<div class="col-sm-6 col-md-3">
-			<div class="thumbnail">
-			<a href="#">
-				<img src="images/tools1.jpg" alt="">
-				<div class="caption">
-					<h5>Circular Needles</h5>
-					<p>$9.99</p>
-			<p>Wood and Nylon</p>
-			<p>8" - 50"</p>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<p>Copyright &copy; katie80 2017</p>
 				</div>
-			 </a>
 			</div>
 		</div>
-		<div class="col-sm-6 col-md-3">
-			<div class="thumbnail">
-			<a href="#">
-				<img src="images/tools2.jpg" alt="">
-				<div class="caption">
-					<h5>Circular Needles</h5>
-					<p>$9.99</p>
-			<p>Wood and Nylon</p>
-			<p>8" - 50"</p>
-				</div>
-			 </a>
-			</div>
-		</div>
-		<div class="col-sm-6 col-md-3">
-			<div class="thumbnail">
-			<a href="#">
-				<img src="images/tools3.jpg" alt="">
-				<div class="caption">
-					<h5>Circular Needles</h5>
-					<p>$9.99</p>
-			<p>Wood and Nylon</p>
-			<p>8" - 50"</p>
-				</div>
-			 </a>
-			</div>
-		</div>
-		<div class="col-sm-6 col-md-3">
-			<div class="thumbnail">
-			<a href="#">
-				<img src="images/tools4.jpg" alt="">
-				<div class="caption">
-					<h5>Circular Needles</h5>
-					<p>$9.99</p>
-			<p>Wood and Nylon</p>
-			<p>8" - 50"</p>
-				</div>
-			 </a>
-			</div>
-		</div>
-		<div class="col-sm-6 col-md-3">
-			<div class="thumbnail">
-			<a href="#">
-				<img src="images/tools5.jpg" alt="">
-				<div class="caption">
-					<h5>Double-Pointed Needles</h5>
-					<p>$5.99</p>
-			<p>Metal</p>
-			<p>8"</p>
-				</div>
-			 </a>
-			</div>
-		</div>
-		<div class="col-sm-6 col-md-3">
-			<div class="thumbnail">
-			<a href="#">
-				<img src="images/tools6.jpg" alt="">
-				<div class="caption">
-					<h5>Double-Pointed Needles</h5>
-			<p>$15.99</p>
-			<p>Metal</p>
-			<p>8" - 10"</p>
-				</div>
-			 </a>
-			</div>
-		</div>
-		<div class="col-sm-6 col-md-3">
-			<div class="thumbnail">
-			<a href="#">
-				<img src="images/tools7.jpg" alt="">
-				<div class="caption">
-					<h5>Double-Pointed Needles</h5>
-					<p>$5.99</p>
-			<p>Metal</p>
-			<p>8" - 10"</p>
-				</div>
-			 </a>
-			</div>
-		</div>
-		<div class="col-sm-6 col-md-3">
-			<div class="thumbnail">
-			<a href="#">
-				<img src="images/tools8.jpg" alt="">
-				<div class="caption">
-					<h5>Double-Pointed Needles</h5>
-					<p>$5.99</p>
-			<p>wood</p>
-			<p>8" - 10"</p>
-				</div>
-			 </a>
-			</div>
-		</div>
-			<div class="col-sm-6 col-md-3">
-			<div class="thumbnail">
-			<a href="#">
-				<img src="images/tools9.jpg" alt="">
-				<div class="caption">
-					<h5>Cardigan</h5>
-					<p>$1.99 / 100g ball</p>
-			<p>100% Premium Acrylic</p>
-			<p>Worsted Weight</p>
-				</div>
-			 </a>
-			</div>
-		</div>  <div class="col-sm-6 col-md-3">
-			<div class="thumbnail">
-			<a href="#">
-				<img src="images/tools10.jpg" alt="">
-				<div class="caption">
-					<h5>Sweater</h5>
-					<p>$1.99 / 100g ball</p>
-			<p>100% Premium Acrylic</p>
-			<p>Worsted Weight</p>
-				</div>
-			 </a>
-			</div>
-		</div>  <div class="col-sm-6 col-md-3">
-			<div class="thumbnail">
-			<a href="#">
-				<img src="images/tools11.jpg" alt="">
-				<div class="caption">
-					<h5>Sweater</h5>
-					<p>$1.99 / 100g ball</p>
-			<p>100% Premium Acrylic</p>
-			<p>Worsted Weight</p>
-				</div>
-			 </a>
-			</div>
-		</div>  <div class="col-sm-6 col-md-3">
-			<div class="thumbnail">
-			<a href="#">
-				<img src="images/tools12.jpg" alt="">
-				<div class="caption">
-					<h5>Knitty</h5>
-					<p>$1.99 / 100g ball</p>
-			<p>100% Premium Acrylic</p>
-			<p>Worsted Weight</p>
-				</div>
-			 </a>
-			</div>
-		</div>  <div class="col-sm-6 col-md-3">
-			<div class="thumbnail">
-			<a href="#">
-				<img src="images/tools3.jpg" alt="">
-				<div class="caption">
-					<h5>Crochetty</h5>
-					<p>$1.99 / 100g ball</p>
-			<p>100% Premium Acrylic</p>
-			<p>Worsted Weight</p>
-				</div>
-			 </a>
-			</div>
-		</div>
-			<div class="col-sm-6 col-md-3">
-			<div class="thumbnail">
-			<a href="#">
-				<img src="images/tools4.jpg" alt="">
-				<div class="caption">
-					<h5>Yarny</h5>
-					<p>$1.99 / 100g ball</p>
-			<p>100% Premium Acrylic</p>
-			<p>Worsted Weight</p>
-				</div>
-			 </a>
-			</div>
-		</div>
-	</div>
-</div>
+	</footer>
+
+	<!-- jQuery -->
+	<script src="js/jquery.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
 
 </body>
+
 </html>

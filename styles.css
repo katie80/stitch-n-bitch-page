@@ -1,15 +1,15 @@
-.jumbotron {
+/*.jumbotron {
 	text-align: bottom;
 	background: transparent;
 	color: #22698a;
 	height: 100vh;
-	background-image: url("http://mysisterknits.com/wp-content/uploads/2014/11/sunshine-skeins.jpg");
+	background-image: url("images/winding-yarn.jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 0 50px; 
-    background-size: cover;
     margin-bottom: 0;
-}
+	background-size: cover;
+}*/
 
 .flat-butt {
   display: inline-block;
@@ -75,10 +75,10 @@
 
 
 
-.shop > .container {
+/*.shop > .container {
 	margin-top: 50px;
 	padding-top: 50px;
-}
+}*/
 
 body > h6 {
 	padding-left: 50px;
@@ -99,7 +99,7 @@ body > h6 {
 	box-shadow: none;
 }
 
-.caption > p {
+.caption > p {	/*did anythign change here?*/
 	margin-bottom: 0px;
 	font-size: 0.9em;
 }
